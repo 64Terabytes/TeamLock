@@ -1,18 +1,19 @@
 ﻿using TerrariaApi.Server;
 using Terraria;
+using TShockAPI;
 
-namespace PluginTemplate;
+namespace TeamLock;
 
 /// <summary>
 /// The main plugin class should always be decorated with an ApiVersion attribute. The current API Version is 2.1
 /// </summary>
 [ApiVersion(2, 1)]
-public class PluginTemplate : TerrariaPlugin
+public class TeamLock : TerrariaPlugin
 {
     /// <summary>
     /// The name of the plugin.
     /// </summary>
-    public override string Name => "Template Plugin";
+    public override string Name => "Team Lock";
 
     /// <summary>
     /// The version of the plugin in its current state.
@@ -22,7 +23,7 @@ public class PluginTemplate : TerrariaPlugin
     /// <summary>
     /// The author(s) of the plugin.
     /// </summary>
-    public override string Author => "Ijwu";
+    public override string Author => "64Terabytes";
 
     /// <summary>
     /// A short, one-line, description of the plugin's purpose.
@@ -33,9 +34,9 @@ public class PluginTemplate : TerrariaPlugin
     /// The plugin's constructor
     /// Set your plugin's order (optional) and any other constructor logic here
     /// </summary>
-    public PluginTemplate(Main game) : base(game)
+    public TeamLock(Main game) : base(game)
     {
-
+        
     }
 
     /// <summary>
@@ -44,7 +45,7 @@ public class PluginTemplate : TerrariaPlugin
     /// </summary>
     public override void Initialize()
     {
-        throw new NotImplementedException();
+        
     }
         
     /// <summary>
